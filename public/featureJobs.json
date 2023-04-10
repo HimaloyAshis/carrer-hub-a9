@@ -1,5 +1,6 @@
 [
     {
+      "id":1,
       "companyLogo": "../src/assets/Logo/google-1-1 1-1.png",
       "jobTitle": "Technical Database Engineer",
       "companyName": "Google LLC",
@@ -11,9 +12,10 @@
       "salary": "$120,000 - $140,000"
     },
     {
+      "id":2,
       "companyLogo": "../src/assets/Logo/netflix-4 1.png",
       "jobTitle": "Data Scientist",
-      "companyName": "Example Company 2",
+      "companyName": "Netflix 2",
       "remote": "remote",
       "fullTime": "fulltime",
       "locationLogo": "../src/assets/Icons/Location Icon.png",
@@ -22,9 +24,10 @@
       "salary": "$130,000 - $150,000"
     },
     {
+      "id":3,
       "companyLogo": "../src/assets/Logo/tesla-9 1.png",
       "jobTitle": "Product Manager",
-      "companyName": "Example Company 3",
+      "companyName": "Tesla",
       "remote": "onside",
       "fullTime": "fulltime",
       "locationLogo": "../src/assets/Icons/Location Icon.png",
@@ -33,6 +36,7 @@
       "salary": "$140,000 - $160,000"
     },
     {
+      "id":4,
       "companyLogo": "../src/assets/Logo/google-1-1 1.png",
       "jobTitle": "UX Designer",
       "companyName": "Example Company 4",
@@ -44,17 +48,19 @@
       "salary": "$100,000 - $120,000"
     },
     {
+      "id":5,
       "companyLogo": "https://example.com/company5-logo.png",
       "jobTitle": "Marketing Manager",
-      "companyName": "Example Company 5",
+      "companyName": "Yahoo!",
       "remote": "remote",
       "fullTime": "fulltime",
-      "locationLogo": "../src/assets/Icons/Location Icon.png",
+      "locationLogo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVMGbH76V9NscYmIWGSY3pfIHpvjYHAjlbCw&usqp=CAU",
       "location": "Los Angeles, CA",
       "salaryLogo": "../src/assets/Icons/Frame.png",
       "salary": "$110,000 - $130,000"
     },
     {
+      "id":6,
       "companyLogo": "https://example.com/company6-logo.png",
       "jobTitle": "Sales Representative",
       "companyName": "Example Company 6",
