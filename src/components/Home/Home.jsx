@@ -1,6 +1,7 @@
 import React from 'react';
 import { useLoaderData } from 'react-router-dom';
 import JobCategory from '../JobCategory/JobCategory';
+import FeatureJob from '../FeatureJob/FeatureJob';
 
 
 const Home = () => {
@@ -20,10 +21,10 @@ const Home = () => {
             </div>
             <div>
 
-                <section className=''>
-                    <h2 className='text-3xl text-center'>Job Category List</h2>
-                    <p className='text-xl text-center'>Explore thousands of job opportunities with all the information you need. Its your future</p>
-                    <div className='gid grid-cols-4 gap-4'>
+                <section className=' mt-20 items-center'>
+                    <h2 className='text-3xl text-center font-bold'>Job Category List</h2>
+                    <p className='text-xl text-center mt-8'>Explore thousands of job opportunities with all the information you need. Its your future</p>
+                    <div className='grid md:grid-cols-4 mx-auto mt-16 gap-2 '>
                         {
                             jobs.map(job => <JobCategory job={job} key={job.id}></JobCategory>)
                         }
@@ -31,6 +32,10 @@ const Home = () => {
                 </section>
 
             </div>
+            <section className='mt-36'>
+                <FeatureJob></FeatureJob>
+            </section>
+
         </div>
     );
 };

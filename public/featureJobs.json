@@ -1,0 +1,69 @@
+[
+    {
+      "companyLogo": "../src/assets/Logo/google-1-1 1-1.png",
+      "jobTitle": "Technical Database Engineer",
+      "companyName": "Google LLC",
+      "remote": "onside",
+      "fullTime": "fulltime",
+      "locationLogo": "../src/assets/Icons/Location Icon.png",
+      "location": "San Francisco, CA",
+      "salaryLogo": "../src/assets/Icons/Frame.png",
+      "salary": "$120,000 - $140,000"
+    },
+    {
+      "companyLogo": "../src/assets/Logo/netflix-4 1.png",
+      "jobTitle": "Data Scientist",
+      "companyName": "Example Company 2",
+      "remote": "remote",
+      "fullTime": "fulltime",
+      "locationLogo": "../src/assets/Icons/Location Icon.png",
+      "location": "New York, NY",
+      "salaryLogo": "../src/assets/Icons/Frame.png",
+      "salary": "$130,000 - $150,000"
+    },
+    {
+      "companyLogo": "../src/assets/Logo/tesla-9 1.png",
+      "jobTitle": "Product Manager",
+      "companyName": "Example Company 3",
+      "remote": "onside",
+      "fullTime": "fulltime",
+      "locationLogo": "../src/assets/Icons/Location Icon.png",
+      "location": "Seattle, WA",
+      "salaryLogo": "../src/assets/Icons/Frame.png",
+      "salary": "$140,000 - $160,000"
+    },
+    {
+      "companyLogo": "../src/assets/Logo/google-1-1 1.png",
+      "jobTitle": "UX Designer",
+      "companyName": "Example Company 4",
+      "remote": "remote",
+      "fullTime": "fulltime",
+      "locationLogo": "../src/assets/Icons/Location Icon.png",
+      "location": "Austin, TX",
+      "salaryLogo": "../src/assets/Icons/Frame.png",
+      "salary": "$100,000 - $120,000"
+    },
+    {
+      "companyLogo": "https://example.com/company5-logo.png",
+      "jobTitle": "Marketing Manager",
+      "companyName": "Example Company 5",
+      "remote": "remote",
+      "fullTime": "fulltime",
+      "locationLogo": "../src/assets/Icons/Location Icon.png",
+      "location": "Los Angeles, CA",
+      "salaryLogo": "../src/assets/Icons/Frame.png",
+      "salary": "$110,000 - $130,000"
+    },
+    {
+      "companyLogo": "https://example.com/company6-logo.png",
+      "jobTitle": "Sales Representative",
+      "companyName": "Example Company 6",
+      "remote": "onside",
+      "fullTime": "fulltime",
+      "locationLogo": "../src/assets/Icons/Location Icon.png",
+      "location": "Chicago, IL",
+      "salaryLogo": "../src/assets/Icons/Frame.png",
+      "salary": "$90,000 - $110,000"
+    }
+  ]
+  
