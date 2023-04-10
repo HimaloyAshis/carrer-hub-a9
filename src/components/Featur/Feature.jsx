@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 
 const Feature = ({ feature }) => {
-    console.log(feature)
+    // console.log(feature)
     const { companyLogo, id, companyName, fullTime, jobTitle, location, locationLogo, remote, salary, salaryLogo } = feature
     return (
         <div className='mx-auto mt-10 space-y-5 bg-slate-200 p-4 rounded'>
@@ -22,7 +22,7 @@ const Feature = ({ feature }) => {
                     <p>{salary}</p>
                 </div>
             </div>
-            <Link to={'viewDetail'}><button className='btn ' >View Detail </button></Link>
+            <Link to={`/viewDetail/${id}`}><button className='btn ' >View Detail </button></Link>
         </div>
     );
 };
