@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.Active{
+    @apply font-bold bg-red-300 p-1 rounded transition duration-200 hover:bg-teal-200
+}
+
+.default{
+    @apply font-bold p-1 rounded transition duration-200 hover:bg-lime-500
+}
+
+.btn{
+    @apply bg-lime-500 p-2 rounded transition duration-200 hover:bg-lime-700
+}

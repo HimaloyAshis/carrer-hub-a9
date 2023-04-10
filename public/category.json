@@ -1,0 +1,23 @@
+[
+    {
+      "jobTitle": "Software Engineer",
+      "logo": "https://example.com/logo1.png",
+      "jobVacancy": 3
+    },
+    {
+      "jobTitle": "Data Analyst",
+      "logo": "https://example.com/logo2.png",
+      "jobVacancy": 2
+    },
+    {
+      "jobTitle": "Marketing Manager",
+      "logo": "https://example.com/logo3.png",
+      "jobVacancy": 1
+    },
+    {
+      "jobTitle": "Graphic Designer",
+      "logo": "https://example.com/logo4.png",
+      "jobVacancy": 2
+    }
+  ]
+  
