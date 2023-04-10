@@ -1,23 +1,22 @@
 [
     {
-      "jobTitle": "Software Engineer",
-      "logo": "https://example.com/logo1.png",
-      "jobVacancy": 3
+        "title": "Account & Finance",
+        "logo": "../src/assets/Icons/accounts 1.png",
+        "vacancy": 300
     },
     {
-      "jobTitle": "Data Analyst",
-      "logo": "https://example.com/logo2.png",
-      "jobVacancy": 2
+        "title": "Creative Design",
+        "logo": "../src/assets/Icons/business 1.png",
+        "vacancy": 250
     },
     {
-      "jobTitle": "Marketing Manager",
-      "logo": "https://example.com/logo3.png",
-      "jobVacancy": 1
+        "title": "Marketing & Sales",
+        "logo": "../src/assets/Icons/social-media 1.png",
+        "vacancy": 400
     },
     {
-      "jobTitle": "Graphic Designer",
-      "logo": "https://example.com/logo4.png",
-      "jobVacancy": 2
+        "title": "Engineering Job",
+        "logo": "../src/assets/Icons/chip 1.png",
+        "vacancy": 200
     }
-  ]
-  
+]
