@@ -6,6 +6,7 @@ const ViewDetail = () => {
 
     const { DetailId } = useParams()
     const [details, setDetail] = useState({})
+    const [job, setJob] = useState()
     const detailId = DetailId
 
     
@@ -26,7 +27,8 @@ const ViewDetail = () => {
     }, [])
 
     const applyDb= id =>{
-        addJobs(id)
+        const job = addJobs(id)
+        setJob(job)
     }
 
 
@@ -65,7 +67,7 @@ const ViewDetail = () => {
                         <p>{details.location}</p>
                     </div>
 
-                        <button onClick={()=>applyDb(details.id)} className='btn'>Apply Now</button>
+                        <button onClick={()=>applyDb(details.id)} className='btn mt-2'>Apply Now</button>
                 </div>
             </div>
         </div>

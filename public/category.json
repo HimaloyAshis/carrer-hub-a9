@@ -1,22 +1,22 @@
 [
     {
         "title": "Account & Finance",
-        "logo": "../src/assets/Icons/accounts 1.png",
+        "logo": "../src/../public/Icons/accounts 1.png",
         "vacancy": 300
     },
     {
         "title": "Creative Design",
-        "logo": "../src/assets/Icons/business 1.png",
+        "logo": "../src/../public/Icons/business 1.png",
         "vacancy": 250
     },
     {
         "title": "Marketing & Sales",
-        "logo": "../src/assets/Icons/social-media 1.png",
+        "logo": "../src/../public/Icons/social-media 1.png",
         "vacancy": 400
     },
     {
         "title": "Engineering Job",
-        "logo": "../src/assets/Icons/chip 1.png",
+        "logo": "../src/../public/Icons/chip 1.png",
         "vacancy": 200
     }
 ]

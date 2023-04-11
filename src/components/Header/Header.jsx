@@ -28,6 +28,11 @@ const Header = () => {
                         Blog
                     </NavLink>
                 </li>
+                <li>
+                    <NavLink to={'/appliedJob'} className={({ isActive }) => isActive ? 'Active' : 'default'}>
+                    AppliedJob
+                    </NavLink>
+                </li>
             </ul>
             <button className='default'>Star Applying</button>
         </div>

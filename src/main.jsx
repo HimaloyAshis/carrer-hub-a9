@@ -11,6 +11,8 @@ import Home from './components/Home/Home'
 import JobCategory from './components/JobCategory/JobCategory'
 import FeatureJob from './components/FeatureJob/FeatureJob'
 import ViewDetail from './components/VeiwDetail/ViewDetail'
+import AppliedAllJob from './components/AppliedAllJob/AppliedAllJob'
+import { jobDetail } from './components/jobDetails/jobDetail'
 
 const router = createBrowserRouter([
   {
@@ -37,6 +39,11 @@ const router = createBrowserRouter([
       {
         path:'statistics',
         element: <Statistics></Statistics>,
+      },
+      {
+        path: 'appliedJob',
+        element: <AppliedAllJob></AppliedAllJob>,
+        loader:jobDetail,
       },
       {
         path:'blog',

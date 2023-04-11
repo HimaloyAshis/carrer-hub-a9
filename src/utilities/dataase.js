@@ -22,4 +22,4 @@ const getJobDb= () =>{
     return jobDb
 }
 
-export {addJobs}
+export {addJobs,getJobDb}
