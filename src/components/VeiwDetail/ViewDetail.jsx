@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useLoaderData, useParams } from 'react-router-dom';
+import { addJobs } from '../../utilities/dataase';
 
 const ViewDetail = () => {
 
@@ -24,6 +25,9 @@ const ViewDetail = () => {
 
     }, [])
 
+    const applyDb= id =>{
+        addJobs(id)
+    }
 
 
     return (
@@ -61,7 +65,7 @@ const ViewDetail = () => {
                         <p>{details.location}</p>
                     </div>
 
-                        <button className='btn'>Apply Now</button>
+                        <button onClick={()=>applyDb(details.id)} className='btn'>Apply Now</button>
                 </div>
             </div>
         </div>
