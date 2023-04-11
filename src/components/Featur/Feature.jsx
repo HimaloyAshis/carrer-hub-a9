@@ -4,6 +4,8 @@ import { Link } from 'react-router-dom';
 const Feature = ({ feature }) => {
     // console.log(feature)
     const { companyLogo, id, companyName, fullTime, jobTitle, location, locationLogo, remote, salary, salaryLogo } = feature
+    // console.log(id)
+    
     return (
         <div className='mx-auto mt-10 space-y-5 bg-slate-200 p-4 rounded'>
 
