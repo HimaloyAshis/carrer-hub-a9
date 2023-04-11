@@ -1,14 +1,16 @@
 import React from 'react';
+import './AllSingleJob.css'
+import { Link } from 'react-router-dom';
 
 const AllSingleJob = ({job}) => {
     console.log(job)
     const {companyLogo,jobTitle,companyName,locationLogo,location,salary,salaryLogo} = job
     return (
-        <div className='space-y-3 flex  items-center'>
-            <div className='w-24 h-16'>
+        <div className='space-y-3 flex items-center mx-6 mt-6'>
+            <div className='w-72 bg-slate-200 p-8 border rounded'>
                 <img src={companyLogo} alt="" />
             </div>
-            <div className=' flex-grow-0 space-y-3'>
+            <div className=' grw ml-6 space-y-1'>
                 <p>{jobTitle}</p>
                 <p>{companyName}</p>
                 <div className='flex gap-2'>
@@ -20,7 +22,7 @@ const AllSingleJob = ({job}) => {
                     <p>{salary}</p>
                 </div>
             </div>
-            <button className='btn'>View Detail</button>
+            <Link to={'/'}><button className='btn'>View Detail</button></Link>
         </div>
     );
 };

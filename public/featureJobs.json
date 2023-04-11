@@ -1,7 +1,7 @@
 [
     {
       "id":1,
-      "companyLogo": "/public/Logo/google-1-1 1-1.png",
+      "companyLogo": "/Logo/google-1-1 1-1.png",
       "jobTitle": "Technical Database Engineer",
       "companyName": "Google LLC",
       "remote": "onside",
