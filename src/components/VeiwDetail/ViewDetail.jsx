@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import { useLoaderData, useParams } from 'react-router-dom';
 import { addJobs } from '../../utilities/dataase';
+import { ToastContainer, toast } from 'react-toastify';
+
 
 const ViewDetail = () => {
 
@@ -9,7 +11,7 @@ const ViewDetail = () => {
     const [job, setJob] = useState()
     const detailId = DetailId
 
-    
+
     useEffect(() => {
         fetch('/featureJobs.json')
             .then(res => res.json())
@@ -17,15 +19,17 @@ const ViewDetail = () => {
                 if (data) {
                     const viewId = data.find(dt => dt.id == detailId)
                     setDetail(viewId)
-                    
+
                 }
             })
 
     }, [])
 
-    const applyDb= id =>{
+    const applyDb = id => {
         const job = addJobs(id)
+
         setJob(job)
+
     }
 
 
@@ -41,7 +45,7 @@ const ViewDetail = () => {
                 </div>
                 <div className='bg-slate-300 w-72 ml-16 rounded space-y-4 p-3'>
                     <h2 className=' font-bold text-2xl p-2 rounded'>Job Details</h2>
-                    <hr className='bg-slate-500'/>
+                    <hr className='bg-slate-500' />
                     <div className='flex gap-2'>
                         <img src={details.salaryLogo} alt="" />
                         <p>{details.salary}</p>
@@ -64,7 +68,7 @@ const ViewDetail = () => {
                         <p>{details.location}</p>
                     </div>
 
-                        <button onClick={()=>applyDb(details.id)} className='btn mt-2'>Apply Now</button>
+                    <button onClick={() => applyDb(details.id)} className='btn mt-2'>Apply Now</button>
                 </div>
             </div>
         </div>

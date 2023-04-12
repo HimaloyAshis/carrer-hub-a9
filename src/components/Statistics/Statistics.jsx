@@ -16,11 +16,18 @@ const Statistics = () => {
     ]
     return (
         <div className=''>
+           
             <h2 className='bg-fuchsia-900 text-center font-bold text-3xl p-10 text-gray-300 mb-10'>Here is statistics of my assignment</h2>
             <AreaChart
                 width={900}
                 height={400}
                 data={marks}
+                margin={{
+                    top: 1,
+                    right:30,
+                    bottom: 0,
+                    left: 0
+                }}
             >
                 <XAxis dataKey="name"></XAxis>
                 <CartesianGrid strokeDasharray="3 3" />
@@ -28,6 +35,7 @@ const Statistics = () => {
                 <YAxis></YAxis>
                 <Area stroke="#8884d8" dataKey='assignmentMark' type="monotone"></Area>
             </AreaChart>
+           
         </div>
     );
 };
