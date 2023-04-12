@@ -10,9 +10,6 @@ const ViewDetail = () => {
     const detailId = DetailId
 
     
-
-
-
     useEffect(() => {
         fetch('/featureJobs.json')
             .then(res => res.json())
@@ -20,7 +17,7 @@ const ViewDetail = () => {
                 if (data) {
                     const viewId = data.find(dt => dt.id == detailId)
                     setDetail(viewId)
-                    console.log(data)
+                    
                 }
             })
 

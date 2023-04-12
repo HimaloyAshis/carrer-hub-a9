@@ -7,14 +7,18 @@ const Feature = ({ feature }) => {
     // console.log(id)
     
     return (
-        <div className='mx-auto mt-10 space-y-5 bg-slate-200 p-4 rounded'>
+        <div className='mx-auto mt-10 space-y-5 bg-slate-200 p-4 rounded space-y-3'>
 
             <img className='h-10 w-20' src={companyLogo} alt="logo" />
 
             <p>{jobTitle}</p>
             <p>{companyName}</p>
-            <p>{fullTime}</p>
-            <div className='flex gap-5'>
+            <div className='flex gap-2'>
+                <button className='btnTime'>{fullTime}</button>
+                <button className='btnTime'>{remote}</button>
+            </div>
+        
+            <div className='flex gap-5 '>
                 <div className='flex'>
                     <img src={locationLogo} alt="" />
                     <p>{location}</p>
