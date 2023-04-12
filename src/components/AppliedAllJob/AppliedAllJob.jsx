@@ -9,7 +9,7 @@ const AppliedAllJob = () => {
     // const {} = jobs
     return (
         <div >
-            
+            <h1 className='bg-slate-400 p-12 text-center font-bold text-3xl'>Here is all applied jobs</h1>
             {
                 jobs.map(job=><AllSingleJob job={job} key={job.id}></AllSingleJob>)
             }
@@ -19,10 +19,3 @@ const AppliedAllJob = () => {
 
 export default AppliedAllJob;
 
-// className='' 
-//         style={{
-//             height: '180px', 
-//             width: '100%',
-//             backgroundSize: 'cover',
-//             backgroundImage: `url(${vectorImg})`
-//             }}

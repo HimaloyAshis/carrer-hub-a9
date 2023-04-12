@@ -7,6 +7,7 @@ const AllSingleJob = ({job}) => {
     const {companyLogo,jobTitle,companyName,locationLogo,location,salary,salaryLogo} = job
     return (
         <div className='space-y-3 flex items-center mx-6 mt-6'>
+            
             <div className='w-72 bg-slate-200 p-8 border rounded'>
                 <img src={companyLogo} alt="" />
             </div>
