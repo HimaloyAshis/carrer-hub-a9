@@ -15,7 +15,7 @@ const Statistics = () => {
 
     ]
     return (
-        <div>
+        <div className=''>
             <h2 className='bg-fuchsia-900 text-center font-bold text-3xl p-10 text-gray-300 mb-10'>Here is statistics of my assignment</h2>
             <AreaChart
                 width={900}

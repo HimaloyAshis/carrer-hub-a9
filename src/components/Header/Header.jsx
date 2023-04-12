@@ -3,12 +3,12 @@ import { NavLink } from 'react-router-dom';
 
 const Header = () => {
     return (
-        <div className='flex items-center justify-between bg-orange-200 p-3'>
+        <div className='lg:flex items-center justify-between bg-orange-200 p-3'>
             <dir>
                 <h2 className='default'>Lets Build Your Career</h2>
             </dir>
 
-            <ul className='flex items-center space-x-3'>
+            <ul className='lg:flex items-center space-x-3'>
                 <li>
                     <NavLink to={'/'} className={({ isActive }) => isActive ? 'Active' : 'default'}>
                         Home
